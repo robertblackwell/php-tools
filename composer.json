@@ -1,0 +1,19 @@
+{
+    "name":"robertblackwell/simple_phar_builder",
+    "description": "A class that builds a phar file from a simple CLI project",
+    "keywords": ["phar builder", "simple", "php"],
+    "type": "library",
+    "homepage": "https://github.com/robertblackwell/simple_phar_builder",
+    "license": "MIT",
+    "minimum-stability":"dev",
+    "authors": [
+        {
+            "name":"robertblackwell",
+            "homepage":"https://github.com/robertblackwell"
+        }
+    ],
+
+	"require": {
+        "symfony/finder": "6.2.x-dev"
+    }
+}
