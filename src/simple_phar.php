@@ -47,7 +47,7 @@ class Builder
         }
         $target  = $this->pharName;
         try {
-            $phar = new \Phar($this->pharName, FilesystemIterator::CURRENT_AS_FILEINFO | FilesystemIterator::KEY_AS_FILENAME, $this->pharAlias);
+            $phar = new \Phar($this->pharName, \FilesystemIterator::CURRENT_AS_FILEINFO | \FilesystemIterator::KEY_AS_FILENAME, $this->pharAlias);
         } catch(\Exception $e) {
             var_dump($e);
         }
