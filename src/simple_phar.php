@@ -25,7 +25,7 @@ class Builder
         }
         $this->pathToMain = (new \SplFileInfo($pathToMain))->getRealPath();
         $this->pharAlias = $pharAlias;
-        $rootInfo = new SplFileInfo($rootDir);
+        $rootInfo = new \SplFileInfo($rootDir);
         if(is_null($rootInfo)) {
             throw new \Exception("root path {$rootDir} does not exist");
         }
