@@ -15,5 +15,8 @@
 
 	"require": {
         "symfony/finder": "6.2.x-dev"
+    },
+    "autoload": {
+        "classmap": ["./src"]
     }
 }
