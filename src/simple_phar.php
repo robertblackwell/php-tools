@@ -1,4 +1,3 @@
-#!/usr/bin/env php
 <?php
 namespace SimplePhar;
 use Symfony\Component\Finder\Finder;
