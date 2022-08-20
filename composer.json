@@ -5,6 +5,7 @@
     "type": "library",
     "homepage": "https://github.com/robertblackwell/simple_phar_builder",
     "license": "MIT",
+    "bin":["simple_phar_builder", "version-bump"],
     "minimum-stability":"dev",
     "authors": [
         {
