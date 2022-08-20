@@ -1,3 +1,3 @@
 #!/usr/bin/env php
 <?php
-include __DIR__."/../src/crerate-phar.php"; 
+include __DIR__."/../src/create-phar.php"; 
