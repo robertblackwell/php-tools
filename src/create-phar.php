@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 ini_set("error_reporting", E_ALL);
-require_once(dirname(__DIR__)."/vendor/autoload.php");
+// require_once(dirname(__DIR__)."/vendor/autoload.php");
 require_once(__DIR__."/phar_builder_class.php");
 function printUsage()
 {

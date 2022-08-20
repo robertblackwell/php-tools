@@ -3,7 +3,7 @@
 
 ini_set("error_reporting", E_ALL);
 //ini_set('phar.readonly', 'Off');
-require_once(dirname(__DIR__)."/vendor/autoload.php");
+// require_once(dirname(__DIR__)."/vendor/autoload.php");
 use Symfony\Component\Finder\Finder;
 class PharBuilderClass
 {
